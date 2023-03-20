@@ -1,0 +1,169 @@
+.header{
+  width: 100%;
+}
+
+.header>h1{
+  text-align: center;
+}
+
+.section-container{
+  /* background-color: red; */
+  border-bottom: 1px solid #b1b0b0;
+  padding: 8px 0px;
+}
+.section-select{
+  /* background-color: red; */
+  width: 90%;
+  margin: 0 auto;
+}
+.select-list{
+  background-color: #5548c8;
+  color: white;
+  padding: 8px 14px;
+  font-size: 1rem;
+}
+.select-item{
+
+}
+.container{
+  width: 100%;
+  padding-top: 16px;
+}
+.shadow-container{
+  width: 80%;
+  margin: 0 auto;
+  /* background-color: red; */
+  min-height: 450px;
+}
+.shadow-atributos,
+.shadow-muestra{
+  display: inline-block;
+  width: 48%;
+  /* background-color: #b1b0b0; */
+  /* height: 400px; */
+  margin-left: 16px;
+}
+.shadow-muestra{
+  vertical-align: top;
+}
+.atributos{
+  width: 100%;
+}
+.atributos-content{
+
+}
+.atributos-header{
+  width: 100%;
+  background-color: #333;
+  color: white;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.atributos-header > h2{
+  padding: 8px;
+  margin: 0;
+  /* background-color: RED; */
+}
+
+.atributos-body{
+
+}
+.atributos-color{
+  display: flex;
+  align-items: center;
+}
+.atributos-color > span{
+  display: inline-block;
+  padding: 5px 8px;
+}
+.atributos-btn{
+  width: 100%;
+  padding: 8px;
+  text-align: end;
+}
+.atributos-btn > button{
+  padding: 12px 30px;
+  background-color: #5548c8;
+  color: white;
+  font-weight: bold;
+  outline: 0;
+  border: 0px;
+  /* border: 0; */
+}
+
+.shadow-view{
+  width: 100%;
+  
+}
+.view{
+
+}
+.view-opcion{
+  
+}
+
+
+.view-figure{
+  width: 100%;
+  min-height: 350px;
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.figura{
+  width: 250px;
+  height: 250px;
+  background-color: #5548c8;
+}
+.view-footer{
+  width: 100%;
+  min-height: 50px;
+  background-color: #b1b1b1;
+  border-radius: 4px;
+  border-left: 4px solid #5548c8;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  /* transition: 0.1s all; */
+  z-index: 2;
+}
+.view-footer > p{
+  margin: 0;
+  padding: 0px 8px;
+  font-size: 1rem;
+  z-index: 0;
+}
+.view-footer:active{
+  outline: 2px solid #5548c8;
+}
+.view-footer:active::after{
+  content: "Copiado";
+  position: relative;
+  background-color: #5548c8;
+  color: white;
+  font-size: 0.6rem;
+  padding: 5px 8px;
+}
+
+/** input */
+.entrada-content{
+  width: 100%;
+  background-color: #dbdada;
+  padding: 10px 10px;
+  box-sizing: border-box;
+}
+.entrada-label{
+  display: block;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  color: #333;
+  font-weight: bold;
+}
+.entrada-input{
+  color: #5548c8;
+  width: 100%;
+  
+}
+
